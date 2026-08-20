@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - TH Brand Makers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <img src="logo.png" alt="TH Brand Makers Logo" width="80">
+    <div class="brand-title">TH BRAND MAKERS</div>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <ul id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#footer">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="login-container">
+    <h1>LOG<span>IN</span></h1>
+
+    <form id="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter your username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p id="login-message"></p>
+  </div>
+
+  <footer id="footer">
+    <h2>TH BRAND MAKERS</h2>
+    <p>Building brands for the digital future.</p>
+    <p class="copyright">&copy; 2026 TH Brand Makers</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
